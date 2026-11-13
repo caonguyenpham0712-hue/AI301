@@ -1,0 +1,52 @@
+{
+  "Standard": {
+    "name": "Standard",
+    "tier": 1,
+    "min_seats": 10,
+    "max_seats": 30,
+    "price_per_seat_month": 250000,
+    "price_per_seat_year": 3000000,
+    "storage_gb": 50,
+    "features": [
+      "Core CRM",
+      "Quản lý liên hệ",
+      "Báo cáo cơ bản",
+      "Hỗ trợ qua Email"
+    ],
+    "sla": "99.0%"
+  },
+  "Professional": {
+    "name": "Professional",
+    "tier": 2,
+    "min_seats": 31,
+    "max_seats": 100,
+    "price_per_seat_month": 450000,
+    "price_per_seat_year": 5400000,
+    "storage_gb": 200,
+    "features": [
+      "Toàn bộ Standard",
+      "Tự động hóa quy trình",
+      "Phân tích dự báo",
+      "Tích hợp Zalo/Tổng đài",
+      "Hỗ trợ Hotline & Email 8/5"
+    ],
+    "sla": "99.5%"
+  },
+  "Enterprise": {
+    "name": "Enterprise",
+    "tier": 3,
+    "min_seats": 101,
+    "max_seats": 1000,
+    "price_per_seat_month": 700000,
+    "price_per_seat_year": 8400000,
+    "storage_gb": 1000,
+    "features": [
+      "Toàn bộ Professional",
+      "Tùy biến API/Webhook riêng",
+      "Bảo mật nâng cao & SSO",
+      "Dedicated CSM 24/7",
+      "Đào tạo tại chỗ"
+    ],
+    "sla": "99.9%"
+  }
+}

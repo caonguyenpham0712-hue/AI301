@@ -1,0 +1,56 @@
+{
+  "EARLY_BIRD": {
+    "code": "EARLY_BIRD",
+    "name": "Ưu đãi Gia hạn Sớm",
+    "discount_pct": 10,
+    "condition_description": "Khách hàng chốt gia hạn trước ngày hết hạn >= 25 ngày",
+    "min_days_before_expiry": 25,
+    "max_discount_cap": 10
+  },
+  "MULTI_YEAR_2": {
+    "code": "MULTI_YEAR_2",
+    "name": "Ưu đãi Cam kết 2 năm",
+    "discount_pct": 15,
+    "condition_description": "Khách hàng đồng ý ký hợp đồng gia hạn thời hạn 2 năm trả trước",
+    "min_commitment_years": 2,
+    "max_discount_cap": 15
+  },
+  "MULTI_YEAR_3": {
+    "code": "MULTI_YEAR_3",
+    "name": "Ưu đãi Cam kết 3 năm",
+    "discount_pct": 20,
+    "condition_description": "Khách hàng đồng ý ký hợp đồng gia hạn thời hạn 3 năm trả trước",
+    "min_commitment_years": 3,
+    "max_discount_cap": 20
+  },
+  "LOYALTY_TIER_1": {
+    "code": "LOYALTY_TIER_1",
+    "name": "Khách hàng Thân thiết (2-3 năm)",
+    "discount_pct": 5,
+    "condition_description": "Khách hàng có thâm niên hợp tác liên tục từ 2 đến dưới 4 năm",
+    "min_tenure_years": 2,
+    "max_tenure_years": 3
+  },
+  "LOYALTY_TIER_2": {
+    "code": "LOYALTY_TIER_2",
+    "name": "Khách hàng Đồng hành Vàng (>= 4 năm)",
+    "discount_pct": 8,
+    "condition_description": "Khách hàng có thâm niên hợp tác liên tục từ 4 năm trở lên",
+    "min_tenure_years": 4,
+    "max_tenure_years": 99
+  },
+  "INCIDENT_RECOVERY": {
+    "code": "INCIDENT_RECOVERY",
+    "name": "Hỗ trợ Thiện chí do Sự cố",
+    "discount_pct": 10,
+    "condition_description": "Dành cho khách hàng gặp sự cố P1/P2 trong kỳ trước (đã khắc phục xong và cam kết SLA mới)",
+    "applicable_only_if_past_incident_resolved": true
+  },
+  "GOVERNANCE_RULES": {
+    "max_stackable_discount_pct": 25,
+    "requires_bod_approval_above_pct": 20,
+    "lead_time_contact_days": 30,
+    "enterprise_lead_time_contact_days": 45,
+    "overdue_threshold_days": 0
+  }
+}
